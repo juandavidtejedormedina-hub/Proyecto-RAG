@@ -93,26 +93,6 @@ OLLAMA_MODEL=llama3.2:3b
 OLLAMA_EMBEDDING_MODEL=all-minilm
 OLLAMA_URL=http://localhost:11434
 ```
-
-Importante: no subas `.env` a GitHub. Ya esta protegido por `.gitignore`.
-
-Si no instalas Ollama, puedes usar `--retriever local` y
-`--generation-mode extractive` como respaldo. La version principal del proyecto
-usa Ollama para embeddings y generacion.
-
-## Configuracion opcional con API key
-
-Si se quiere comparar con una API en linea, se puede agregar al `.env`:
-
-```env
-OPENAI_API_KEY=tu_api_key
-OPENAI_MODEL=gpt-5.5
-OPENAI_EMBEDDING_MODEL=text-embedding-3-small
-```
-
-En ese caso tambien se puede ejecutar con `--retriever openai` y
-`--generation-mode api`.
-
 ## Orden de ejecucion
 
 Construir el indice vectorial:
@@ -204,25 +184,4 @@ de transito y pueden dar lugar a la imposicion de un comparendo.
 
 Paginas consultadas: p. 86.
 
-## Guion sugerido para el video de 3 a 5 minutos
-
-1. Presentacion, 30 segundos:
-   Presentar nombre, documento elegido y motivo de seleccion.
-
-2. Ejecucion del sistema, 1 minuto:
-   Mostrar `pip install -r requirements.txt`, instalacion o apertura de Ollama,
-   configuracion del `.env`, ejecucion de `python RAG.PY --build-index --retriever ollama`
-   y explicacion breve de carga, chunks, embeddings locales, vectorstore local
-   y recuperacion.
-
-3. Demostracion, 2 minutos:
-   Ejecutar `python RAG.PY` y hacer una pregunta, por ejemplo:
-   `Los menores pueden viajar en el asiento delantero?`
-
-4. Conclusion, 30 segundos:
-   Mencionar un aprendizaje y una limitacion. Ejemplo: aprendi a conectar
-   recuperacion semantica con generacion de respuestas; una limitacion es que
-   la calidad depende de la extraccion de texto del PDF y de los fragmentos
-   recuperados.
-
-Link del video: pendiente.
+Link del video: 
