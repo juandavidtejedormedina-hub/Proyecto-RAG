@@ -2,6 +2,10 @@
 
 Repositorio: https://github.com/juandavidtejedormedina-hub/Proyecto-RAG
 
+Informe tecnico: [INFORME_TECNICO.md](INFORME_TECNICO.md)
+
+Estado de entrega: codigo fuente y README listos. Video pendiente.
+
 ## Nombre del estudiante y fecha
 
 - Estudiante: Juan David Tejedor Medina
