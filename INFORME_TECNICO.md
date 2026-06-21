@@ -297,7 +297,3 @@ respuesta conversacional. La solucion funciona de forma local con Ollama, por
 lo que no depende de una API key externa. Ademas, el asistente LexTransito
 incluye reglas de prompt para evitar invenciones y citar paginas consultadas.
 
-## 13. Pendiente
-
-Solo queda grabar el video de 3 a 5 minutos y agregar el enlace en el README.
-
