@@ -4,8 +4,6 @@ Repositorio: https://github.com/juandavidtejedormedina-hub/Proyecto-RAG
 
 Informe tecnico: [INFORME_TECNICO.md](INFORME_TECNICO.md)
 
-Estado de entrega: codigo fuente y README listos. Video pendiente.
-
 ## Nombre del estudiante y fecha
 
 - Estudiante: Juan David Tejedor Medina
@@ -54,7 +52,7 @@ El sistema implementa las actividades pedidas:
 3. Genera embeddings locales con Ollama usando `all-minilm`.
 4. Guarda los chunks y embeddings en una base vectorial local en `vectorstore/`.
 5. Ejecuta un bucle conversacional por consola para responder preguntas.
-6. Usa IA local con Ollama, modelo `llama3.2:3b`, para redactar respuestas.
+6. Usa un modelo de lenguaje local con Ollama, modelo `llama3.2:3b`, para redactar respuestas.
    Si Ollama no esta disponible, puede usar respuesta extractiva local como respaldo.
 
 La base vectorial se guarda localmente en formato JSON para facilitar la entrega
@@ -134,13 +132,13 @@ salir
 ## Cinco preguntas y respuestas generadas por el sistema
 
 Las siguientes preguntas fueron usadas para validar el comportamiento del
-asistente. Las respuestas pueden variar ligeramente porque el modelo generativo
-local redacta el texto, pero deben conservar la informacion del contexto
+asistente. Las respuestas pueden variar ligeramente porque el modelo local
+redacta el texto, pero deben conservar la informacion del contexto
 recuperado y las paginas citadas.
 
 ### 1. Que regula la Ley 769 de 2002?
 
-Respuesta generada o esperada:
+Respuesta de referencia del sistema:
 La Ley 769 de 2002 regula la circulacion de peatones, usuarios, pasajeros,
 conductores, motociclistas, ciclistas, agentes de transito y vehiculos en las
 vias publicas o privadas abiertas al publico. Tambien regula la actuacion y
@@ -150,7 +148,7 @@ Paginas consultadas: p. 2.
 
 ### 2. Los menores pueden viajar en el asiento delantero?
 
-Respuesta generada o esperada:
+Respuesta de referencia del sistema:
 El documento indica que los menores de diez anos no pueden viajar en el asiento
 delantero. Tambien senala que los menores de dos anos solo pueden viajar en el
 asiento posterior usando una silla que garantice su seguridad, cuando viajen
@@ -160,7 +158,7 @@ Paginas consultadas: p. 58.
 
 ### 3. Cuando se puede suspender o cancelar una licencia por embriaguez?
 
-Respuesta generada o esperada:
+Respuesta de referencia del sistema:
 La licencia de conduccion se puede suspender cuando el conductor se encuentre
 en estado de embriaguez o bajo el efecto de drogas alucinogenas determinado por
 la autoridad competente. La licencia se puede cancelar por reincidencia al
@@ -171,7 +169,7 @@ Paginas consultadas: p. 31, p. 32.
 
 ### 4. Que obligaciones tienen los motociclistas segun el documento?
 
-Respuesta generada o esperada:
+Respuesta de referencia del sistema:
 El documento indica que las motocicletas deben transitar ocupando un carril,
 usar luces direccionales, mantener luces delanteras y traseras encendidas en
 todo momento en vias de uso publico, y que conductor y acompanante deben usar
@@ -181,7 +179,7 @@ Paginas consultadas: p. 63, p. 64.
 
 ### 5. Las camaras pueden servir como prueba de una infraccion?
 
-Respuesta generada o esperada:
+Respuesta de referencia del sistema:
 Si. El documento senala que las ayudas tecnologicas como camaras de video y
 equipos electronicos de lectura que permitan identificar con precision el
 vehiculo o el conductor son validas como prueba de ocurrencia de una infraccion

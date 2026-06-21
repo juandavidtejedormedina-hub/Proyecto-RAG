@@ -175,7 +175,7 @@ Pregunta:
 Que regula la Ley 769 de 2002?
 ```
 
-Respuesta esperada:
+Respuesta de referencia:
 
 ```text
 La Ley 769 de 2002 regula la circulacion de peatones, usuarios, pasajeros,
@@ -194,7 +194,7 @@ Pregunta:
 Los menores pueden viajar en el asiento delantero?
 ```
 
-Respuesta esperada:
+Respuesta de referencia:
 
 ```text
 Los menores de diez anos no pueden viajar en el asiento delantero. Los menores
@@ -212,7 +212,7 @@ Pregunta:
 Cuando se puede suspender o cancelar una licencia por embriaguez?
 ```
 
-Respuesta esperada:
+Respuesta de referencia:
 
 ```text
 La licencia puede suspenderse cuando el conductor se encuentre en estado de
@@ -230,7 +230,7 @@ Pregunta:
 Que obligaciones tienen los motociclistas segun el documento?
 ```
 
-Respuesta esperada:
+Respuesta de referencia:
 
 ```text
 Los motociclistas deben transitar ocupando un carril, usar luces direccionales,
@@ -248,7 +248,7 @@ Pregunta:
 Las camaras pueden servir como prueba de una infraccion?
 ```
 
-Respuesta esperada:
+Respuesta de referencia:
 
 ```text
 Las camaras de video y equipos electronicos de lectura que permitan identificar
